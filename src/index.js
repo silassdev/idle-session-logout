@@ -56,7 +56,7 @@ class IdleSessionLogout {
       } else {
         try {
           alert(this.popupMessage);
-        } catch (e) { /* noop for non-window env */ }
+        } catch (e)
         window.location.href = '/login';
       }
     }
