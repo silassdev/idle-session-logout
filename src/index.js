@@ -3,7 +3,7 @@ class IdleSessionLogout {
       timeout = 30 * 60 * 1000,
       onTimeout = null,
       events = ['mousemove','mousedown','keydown','scroll','touchstart'],
-      popupMessage = "You've been inactive for 30 minutes.",
+      popupMessage = "You've been inactive for about 30 minutes.",
     } = {}) {
       this.timeout = timeout;
       this.onTimeout = onTimeout;
